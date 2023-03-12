@@ -4,7 +4,7 @@ const Card = (props) =>{
     return(
         <div class="card">
             <div class="card__image-holder">
-                <img class="card__image" src={process.env.PUBLIC_URL + `${props.card.link}`}/>
+                <img class="card__image" src={process.env.PUBLIC_URL + `${props.card.link}`} alt='img'/>
             </div>
                 <div class="card-title">
                         <span class="left"></span>

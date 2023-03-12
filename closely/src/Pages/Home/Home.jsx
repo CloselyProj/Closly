@@ -5,14 +5,7 @@ import '../../css/Home.css';
 const Home = () => {
   return (
     <div>
-      <div class="page">
-          <header tabindex="0">
-            <a asp-page=""><button class="custom-btn btn-6"><span>Films</span></button></a>
-            <a class="btn" href='#'><button class="custom-btn btn-6"><span>YouTube</span></button></a>
-            <a class="btn" href='#'><button class="custom-btn btn-6"><span>My Video</span></button></a>
-            <a class="profile" href='#'><button class="custom-btn btn-6"><span>Login</span></button></a>
-          </header>
-      </div>
+
       {/*Search box*/}
       <form asp-page="/Room" method="post" class="search_form">
           <label for="search" class="search_label">Search for stuff</label>
